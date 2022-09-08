@@ -1,0 +1,218 @@
+/*THIS STYLESHEET WAS CREATED BY YASH & ARSH FOR WEBDEVELOPMENT WORKSHOP SHOWCASE */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    background-color: #f5f7fd ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+
+/* ***** NAV CONTAINER ****** */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:white ;
+    color: #171435;
+    box-shadow: 1px 0px 2px 0px;
+   }
+   .nav-links a {
+    color: #171435;
+   }
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: lightpink;
+    border-radius: 20px;
+    transition: 0.6s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+
+/* ***** NAV CONTAINER ENDS****** */
+
+/* ***** ABOUT CONTAINER ****** */
+.about-div{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 20rem;
+}
+
+#about_h1{
+    text-align: center;
+    padding-top: 15px;
+    color: #171435;
+}
+
+.about-div p{
+    font-size: 24px;
+    width:800px;
+    font-display: block;
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+.about-div img{
+    float: right;
+}
+/* ***** ABOUT CONTAINER ENDS ****** */
+
+
+
+/* ***** Courses CONTAINER ****** */
+#courses_h1{
+    text-align: center;
+    color: #171435;
+    margin-top: 90px;
+}
+
+.courses-div{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    gap: 25rem;
+    padding-left: 100px;
+}
+
+.courses-div img{
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+}
+/* ***** Courses CONTAINER ENDS****** */
+
+
+
+/* ***** COMPILER CONTAINER ****** */
+#compiler_h1{
+    text-align: center;
+    color: #171435;
+    margin-top: 90px;
+}
+
+.compiler-div{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    gap: 25rem;
+    padding-left: 100px;
+    margin-bottom: 7rem;
+}
+
+.compiler-div img{
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+}
+/* ***** COMPILER CONTAINER ENDS****** */
+
+
+
+
+
+
+
+/* ***** footer****** */
+footer{
+    margin-top: 30px;
+    background: white;
+    padding: 20px 0;
+  }
+   
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+   
+
+   
+  .social-media{
+    margin: 20px 0;
+  }
+   
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+   
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+   
+  .right-col h1{
+    font-size: 26px;
+  }
+   
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+   
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+   
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+   
+  .btn:hover{
+    opacity: .7;
+  }
+   
+/* ***** Ends footer****** */
+
+   
+
+   
